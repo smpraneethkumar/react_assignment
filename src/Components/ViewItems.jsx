@@ -1,14 +1,15 @@
-import axios from 'axios'
-import React, { useEffect, useState } from 'react'
+import React from "react";
 
-const ViewItems = (name) => {
+const ViewItems = () => {
     
 
-    console.log(name);
+
+ 
     
   return (
     <div>
-        <p>{name}</p>
+        <p>xvsssfsdf</p>
+        <p></p>
     </div>
   )
 }

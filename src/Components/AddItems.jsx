@@ -1,7 +1,8 @@
 import React, { useState } from 'react'
 
-const AddItems = (name) => {
+const AddItems = () => {
     const [name,setName] = useState("")
+
 
     const newItem = {
         name: name
