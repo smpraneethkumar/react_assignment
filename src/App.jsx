@@ -1,12 +1,16 @@
-import {  } from 'react'
-
+import React from 'react'
 import './App.css'
+import ViewItems from './Components/ViewItems'
+import Header from './Components/Header'
+import AddItems from './Components/AddItems'
 
 function App() {
 
   return (
     <>
-      <p>jhjhgjh</p>
+      {/* <Header/> */}
+     <AddItems/>
+     <ViewItems/>
     </>
   )
 }
