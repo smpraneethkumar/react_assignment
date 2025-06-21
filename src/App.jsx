@@ -1,16 +1,14 @@
 import React from 'react'
 import './App.css'
-import ViewItems from './Components/ViewItems'
 import Header from './Components/Header'
-import AddItems from './Components/AddItems'
+import Routing from './Routes/Routing.jsx'
 
 function App() {
 
   return (
     <>
-      {/* <Header/> */}
-     <AddItems/>
-     <ViewItems/>
+      <Header/>
+      <Routing/>
     </>
   )
 }
